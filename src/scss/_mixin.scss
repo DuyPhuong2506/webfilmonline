@@ -1,0 +1,60 @@
+@mixin flex($aligin-item, $justify-content) {
+    display: flex;
+    align-items: $aligin-item;
+    justify-content: $justify-content;
+}
+
+@mixin overlay {
+    background-color: rgba($color: #000000, $alpha: 0.6);
+}
+
+//break points
+$breakpoints:(
+    'extra-large': 1200px,
+    'large' : 992px,
+    'medium' : 768px,
+    'small' : 576px
+);
+
+@mixin responsive($screen) {
+    @if(map-has-key($map: $breakpoints, $key: $screen)){
+        $value : map-get($map: $breakpoints, $key: $screen);
+        @media screen and (max-width: $value) {
+            @content;
+        }
+    }@else {
+        @error 'srceen is not exist';
+    }
+}
+
+@mixin styleText($fs,$color,$mg-x,$mg-y,$fw) {
+    font-size: $fs;
+    color: $color;
+    margin: $mg-y $mg-x;
+    font-weight: $fw;
+}
+
+@mixin shadow($color) {
+    box-shadow: $color;
+}
+
+@mixin customScroll($width,$bg) {
+    /* width */
+    ::-webkit-scrollbar {
+        width: $width;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #fff;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: $bg;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: $bg;
+    }
+}
