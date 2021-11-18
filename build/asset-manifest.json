@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ddca0e8.chunk.css",
+    "main.js": "/static/js/main.91ada71d.chunk.js",
+    "main.js.map": "/static/js/main.91ada71d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e7cad9bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e7cad9bf.js.map",
+    "static/css/2.10406810.chunk.css": "/static/css/2.10406810.chunk.css",
+    "static/js/2.0e1e40cc.chunk.js": "/static/js/2.0e1e40cc.chunk.js",
+    "static/js/2.0e1e40cc.chunk.js.map": "/static/js/2.0e1e40cc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.10406810.chunk.css.map": "/static/css/2.10406810.chunk.css.map",
+    "static/css/main.1ddca0e8.chunk.css.map": "/static/css/main.1ddca0e8.chunk.css.map",
+    "static/js/2.0e1e40cc.chunk.js.LICENSE.txt": "/static/js/2.0e1e40cc.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/footer-bg.67e95f05.jpg": "/static/media/footer-bg.67e95f05.jpg",
+    "static/media/tmovie.67797e94.png": "/static/media/tmovie.67797e94.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7cad9bf.js",
+    "static/css/2.10406810.chunk.css",
+    "static/js/2.0e1e40cc.chunk.js",
+    "static/css/main.1ddca0e8.chunk.css",
+    "static/js/main.91ada71d.chunk.js"
+  ]
+}
